@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingEnd="10dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:hint="product_name"
+        android:layout_marginTop="100dp"
+        android:id="@+id/ti_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:hint="amount"
+        android:id="@+id/ti_amount"
+        android:layout_below="@id/ti_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:hint="item_count"
+        android:id="@+id/ti_item_count"
+        android:layout_below="@id/ti_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_product_details"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/ti_item_count"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/product_detail" />
+
+</RelativeLayout>
