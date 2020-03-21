@@ -1,5 +1,7 @@
 
-This sample app contains the bottom navigation bar and toolbar menu with navigation components.
+This sample app contains the bottom navigation bar and toolbar menu with navigation components. like this.
+
+![screenshot](./screenshot/demo.png)
 
 ## Navigate the project build.gradle and add below classpath
 
